@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Memory Star Map",
+    "description": "Draws the memory store as a violet starfield: gold points are remembered things, thin lines are shared keywords. Collapsible, never covers the workspace."
+  }
+}
