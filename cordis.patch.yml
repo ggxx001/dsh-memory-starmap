@@ -1,0 +1,3 @@
+- insert:
+    - id: dsh-memory-starmap
+      name: '@local/dsh-memory-starmap'
