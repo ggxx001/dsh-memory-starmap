@@ -1,0 +1,42 @@
+{
+  "name": "dsh-memory-starmap",
+  "version": "1.0.0",
+  "description": "记忆星图：把 meow-memory 的七层记忆画成球形嵌套星图，可搜索、点开看、按层显隐",
+  "type": "module",
+  "license": "MIT",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": []
+    }
+  },
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "memory",
+    "visualization",
+    "starmap",
+    "three"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ggxx001/dsh-memory-starmap.git"
+  }
+}
